@@ -6,14 +6,14 @@
 
 ## 📌 Descrição
 
-Este projeto implementa um **sistema de controle e temperatura** utilizando um **ESP32**, sensores ambientais e controle via nuvem (TagoIO).
+Este projeto implementa um **sistema de controle de temperatura e umidade** utilizando um **ESP32**, sensores ambientais e ajustes via nuvem (TagoIO).
 
 O sistema monitora:
 - 🌡️ Temperatura
 - 💧 Umidade do ar
 - 🌱 Umidade do solo  
 
-E realiza o controle de irrigação utilizando um **controlador PID**, permitindo ajuste dinâmico da umidade do solo.
+Realiza o controle de irrigação utilizando um **controlador On/Off** e um **controlador PID** para o controle de temperatura, permitindo ajuste dinâmico da umidade do solo e da temperatura do ar.
 
 ---
 
@@ -26,22 +26,6 @@ E realiza o controle de irrigação utilizando um **controlador PID**, permitind
 ✅ Comunicação com a nuvem (TagoIO)  
 ✅ Atualização de setpoint remotamente  
 ✅ Envio de dados em tempo real  
-
----
-
-## 🧠 Arquitetura do Sistema
-
-```mermaid
-graph TD
-A[Sensor DHT11] --> ESP32
-B[Sensor Umidade Solo] --> ESP32
-ESP32 --> C[Controle PID]
-ESP32 --> G[Controle On/Off]
-G --> H[Bomba  de Irrigação]
-C --> D[Lâmpada Incadescente (atuador)]
-ESP32 --> E[WiFi]
-E --> F[TagoIO Cloud]
-```
 
 ---
 
