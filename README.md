@@ -1,8 +1,9 @@
 # 🌱 Sistema de Controle e Temperatura
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Plataforma](https://img.shields.io/badge/platform-ESP32-blue)
-![Linguagem](https://img.shields.io/badge/language-C++-brightgreen)
+![Status](https://img.shields.io/badge/status-Finalizado-yellow)
+![Plataforma](https://img.shields.io/badge/microcontrolador-ESP32-blue)
+![Plataforma](https://img.shields.io/badge/platforma-Arduino_IDE-red)
+![Linguagem](https://img.shields.io/badge/languagem-C-brightgreen)
 
 ## 📌 Descrição
 
