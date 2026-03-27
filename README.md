@@ -10,7 +10,7 @@
 Este projeto implementa um **sistema de controle de temperatura e umidade** utilizando um **ESP32**, sensores ambientais e ajustes via nuvem (TagoIO).
 
 O sistema monitora:
-- 🌡️ Temperatura
+- 🌡️ Temperatura do ar
 - 💧 Umidade do ar
 - 🌱 Umidade do solo  
 
