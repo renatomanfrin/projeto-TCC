@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-Finalizado-yellow)
 ![Plataforma](https://img.shields.io/badge/microcontrolador-ESP32-blue)
 ![Plataforma](https://img.shields.io/badge/platforma-Arduino_IDE-red)
-![Linguagem](https://img.shields.io/badge/languagem-C-brightgreen)
+![Linguagem](https://img.shields.io/badge/linguagem-C-brightgreen)
 
 ## 📌 Descrição
 
